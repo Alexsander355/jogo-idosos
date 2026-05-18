@@ -1,3 +1,12 @@
+# Funcionalidade 
+fechar
+Button(
+    janela_principal,
+    text="Fechar",
+    width=22,
+    command=janela_principal.destroy
+).pack(pady=15)
+
 # jogo-idosos
 Alexsander Abreu Martins - 202503446067
 Samuel Moura de Abreu Machado - 202502202873
