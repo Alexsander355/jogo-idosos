@@ -1,0 +1,17 @@
+import tkinter as tk
+
+# Função que fecha a janela
+def fechar_janela():
+    janela.destroy()
+
+# Configuração da Janela Principal
+janela = tk.Tk()
+janela.title("Exemplo de Botão")
+janela.geometry("300x200")
+
+# Criação do Botão
+botao_fechar = tk.Button(janela, text="Fechar", command=fechar_janela)
+botao_fechar.pack(pady=50)
+
+# Inicia o loop da aplicação
+janela.mainloop()
